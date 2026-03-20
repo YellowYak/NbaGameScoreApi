@@ -1,0 +1,14 @@
+# Python artifacts
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+nba_game_score_api.egg-info/
+
+# Version control
+.git/
+.gitignore
+
+# Development artifacts
+*.md

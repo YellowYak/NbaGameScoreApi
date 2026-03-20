@@ -20,6 +20,18 @@ uvicorn api.main:app --reload
 
 The API will be available at http://localhost:8000.
 
+## Run with Docker
+
+```bash
+# Build the image
+docker build -t nba-game-score-api .
+
+# Run the container (exposes the API on port 8000)
+docker run -p 8000:8000 nba-game-score-api
+```
+
+The API will be available at http://localhost:8000.
+
 ## Endpoints
 
 | Method | Path | Description |
