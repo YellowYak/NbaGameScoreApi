@@ -27,7 +27,7 @@ The API will be available at http://localhost:8000.
 docker build -t nba-game-score-api .
 
 # Run the container (exposes the API on port 8000)
-docker run -p 8000:8000 nba-game-score-api
+docker run -p 8000:8000 --name nba-api nba-game-score-api
 ```
 
 The API will be available at http://localhost:8000.
